@@ -619,7 +619,7 @@
         <!--Categorias-->
         <scene sceneID="rXn-Mc-wCI">
             <objects>
-                <tableViewController id="VGP-gO-49j" sceneMemberID="viewController">
+                <tableViewController id="VGP-gO-49j" customClass="categoriasTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="84" sectionHeaderHeight="22" sectionFooterHeight="22" id="B2o-ea-IiY">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -715,7 +715,19 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="h8T-NH-zs2" id="GnI-kj-Y1W">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Old-People.png" translatesAutoresizingMaskIntoConstraints="NO" id="hML-ZO-d0q">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Niños" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4su-9s-QCr">
+                                                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ver" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOh-uu-vhU">
+                                                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.70130997470000001" green="0.70130997470000001" blue="0.70130997470000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeless-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="hML-ZO-d0q">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="98" id="2Of-x7-MEF"/>
@@ -734,18 +746,6 @@
                                                         </mask>
                                                     </variation>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Niños" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4su-9s-QCr">
-                                                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ver" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOh-uu-vhU">
-                                                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.70130997470000001" green="0.70130997470000001" blue="0.70130997470000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="hML-ZO-d0q" firstAttribute="leading" secondItem="GnI-kj-Y1W" secondAttribute="leadingMargin" constant="-8" id="EUt-w9-9Gz"/>
@@ -758,9 +758,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="subviews">
-                                                    <exclude reference="hML-ZO-d0q"/>
                                                     <exclude reference="4su-9s-QCr"/>
                                                     <exclude reference="iOh-uu-vhU"/>
+                                                    <exclude reference="hML-ZO-d0q"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <exclude reference="Jx0-8L-zD2"/>
@@ -774,9 +774,9 @@
                                             </variation>
                                             <variation key="widthClass=compact">
                                                 <mask key="subviews">
-                                                    <include reference="hML-ZO-d0q"/>
                                                     <include reference="4su-9s-QCr"/>
                                                     <include reference="iOh-uu-vhU"/>
+                                                    <include reference="hML-ZO-d0q"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <include reference="Jx0-8L-zD2"/>
@@ -795,7 +795,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dsd-3I-p7K" id="6Ec-Xf-Avp">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Old-People.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Dx-NE-fY0">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kids-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Dx-NE-fY0">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="83" id="Kgr-de-MRs"/>
@@ -955,7 +955,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fVK-bS-yoe" id="DCN-Op-dRh">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Old-People.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hwg-s2-Y7O">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeless-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hwg-s2-Y7O">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="83" id="UAu-Hn-YgY"/>
@@ -1035,7 +1035,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FPs-cX-YIH" id="0SI-8S-ROg">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Old-People.png" translatesAutoresizingMaskIntoConstraints="NO" id="gbT-3v-EC7">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeless-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="gbT-3v-EC7">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="98" id="cVb-2C-v5n"/>
@@ -1522,9 +1522,12 @@
                                 <state key="normal" title="Volver">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="backToHome:" destination="VGP-gO-49j" eventType="touchUpInside" id="9XA-sR-SEj"/>
+                                </connections>
                             </button>
                             <connections>
-                                <action selector="backToHome:" destination="VGP-gO-49j" id="9b7-75-WEj"/>
+                                <action selector="backHome:" destination="VGP-gO-49j" id="1nM-pB-983"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="Lh5-DS-E8G">
@@ -1687,6 +1690,8 @@
         <image name="2702504642_d9a452ba24_o.jpg" width="500" height="500"/>
         <image name="Old-People.png" width="120" height="90"/>
         <image name="homeless-banner.png" width="400" height="273"/>
+        <image name="homeless-icon.png" width="120" height="82"/>
+        <image name="kids-icon.png" width="120" height="80"/>
         <image name="logo.png" width="232" height="65"/>
     </resources>
     <inferredMetricsTieBreakers>
