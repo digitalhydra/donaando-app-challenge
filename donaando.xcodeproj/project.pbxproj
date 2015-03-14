@@ -28,6 +28,7 @@
 		41D2EA431AB48EC4002D7BE7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D2EA421AB48EC4002D7BE7 /* CoreLocation.framework */; };
 		41D2EA461AB48F96002D7BE7 /* Marker.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D2EA451AB48F96002D7BE7 /* Marker.m */; };
 		41D2EA4C1AB49CC1002D7BE7 /* mapUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D2EA4B1AB49CC0002D7BE7 /* mapUIViewController.m */; };
+		41D2EA4E1AB4A4E7002D7BE7 /* mapMarker.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D2EA4D1AB4A4E7002D7BE7 /* mapMarker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		41D2EA451AB48F96002D7BE7 /* Marker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Marker.m; path = ../Marker.m; sourceTree = "<group>"; };
 		41D2EA4A1AB49CC0002D7BE7 /* mapUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapUIViewController.h; sourceTree = "<group>"; };
 		41D2EA4B1AB49CC0002D7BE7 /* mapUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapUIViewController.m; sourceTree = "<group>"; };
+		41D2EA4D1AB4A4E7002D7BE7 /* mapMarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapMarker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		41A40CD01AB3EFB000E09059 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				41D2EA4D1AB4A4E7002D7BE7 /* mapMarker.png */,
 				41A40CC41AB3EF9B00E09059 /* homeless-banner.png */,
 				41A40CC51AB3EF9B00E09059 /* homeless-icon.png */,
 				41A40CC61AB3EF9B00E09059 /* kids-banner.png */,
@@ -267,6 +270,7 @@
 				41A40CCD1AB3EF9B00E09059 /* kids-icon.png in Resources */,
 				41A40CCA1AB3EF9B00E09059 /* homeless-banner.png in Resources */,
 				41B12E431AB3A5E00020F318 /* LaunchScreen.xib in Resources */,
+				41D2EA4E1AB4A4E7002D7BE7 /* mapMarker.png in Resources */,
 				41A40CCE1AB3EF9B00E09059 /* Old-People-banner.png in Resources */,
 				41A40CC21AB3CC6400E09059 /* icon.png in Resources */,
 				41A40CCC1AB3EF9B00E09059 /* kids-banner.png in Resources */,

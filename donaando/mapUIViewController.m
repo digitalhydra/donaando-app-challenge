@@ -36,7 +36,7 @@
 }
 
 -(void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation{
-    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance([userLocation coordinate], 3, 3);
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance([userLocation coordinate], 5, 5);
     
     [_map setRegion:region animated:YES];
 }
