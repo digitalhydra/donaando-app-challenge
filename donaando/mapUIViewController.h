@@ -1,5 +1,5 @@
 //
-//  mapViewController.h
+//  mapUIViewController.h
 //  donaando
 //
 //  Created by jairo mejia on 14/03/15.
@@ -10,7 +10,7 @@
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-@interface mapViewController : UIViewController
+@interface mapUIViewController : UIViewController
 <MKMapViewDelegate, CLLocationManagerDelegate>
 
 @property CLLocationManager * locationManager;

@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+@interface Marker : NSObject <MKAnnotation>
 
-@interface Marker : NSObject
+@property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
+@property (nonatomic, readonly,copy) NSString * title;
+@property (nonatomic, readonly,copy) NSString * subtitle;
+
+-(id) initInBucaramanga;
+-(id) initAddPunto2;
+-(id) initAddPunto3;
 
 @end

@@ -24,6 +24,10 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Su ubicacion se usara para fines academicos</string>
+	<key>NSLocationWhenUsageDescription</key>
+	<string>aun estamos usando su ubicacion</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>

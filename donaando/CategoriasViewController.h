@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CategoriasViewController : UIViewController
+@interface CategoriasViewController : UIViewController <UITableViewDataSource, UITabBarDelegate>
+
+@property (copy, nonatomic) NSArray *categorias;
 
 @end

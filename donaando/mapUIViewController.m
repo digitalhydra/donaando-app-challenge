@@ -1,19 +1,19 @@
 //
-//  mapViewController.m
+//  mapUIViewController.m
 //  donaando
 //
 //  Created by jairo mejia on 14/03/15.
 //  Copyright (c) 2015 jairo y jhon. All rights reserved.
 //
 
-#import "mapViewController.h"
+#import "mapUIViewController.h"
 #import "Marker.h"
 
-@interface mapViewController ()
+@interface mapUIViewController ()
 
 @end
 
-@implementation mapViewController
+@implementation mapUIViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -21,12 +21,12 @@
     _map.delegate = self;
     
     Marker * bucaramanga = [[Marker alloc] initInBucaramanga];
-    //Marker * punto2 = [[Marker alloc] initAddPunto2];
-    //Marker * punto3 = [[Marker alloc] initAddPunto3];
+    Marker * punto2 = [[Marker alloc] initAddPunto2];
+    Marker * punto3 = [[Marker alloc] initAddPunto3];
     [_map addAnnotation:bucaramanga];
-    //[_map addAnnotation:punto2];
-    //[_map addAnnotation:punto3];
-
+    [_map addAnnotation:punto2];
+    [_map addAnnotation:punto3];
+    
     
     
     _locationManager= [[CLLocationManager alloc] init];
@@ -36,7 +36,7 @@
 }
 
 -(void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation{
-    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance([userLocation coordinate], 30, 30);
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance([userLocation coordinate], 3, 3);
     
     [_map setRegion:region animated:YES];
 }

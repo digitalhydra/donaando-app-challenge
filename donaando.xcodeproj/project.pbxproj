@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		416F9ACA1AB3AD320050051B /* 2434923518_d480094c53_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 416F9AC91AB3AD320050051B /* 2434923518_d480094c53_b.jpg */; };
+		416F9ACC1AB3AE9A0050051B /* 2702504642_d9a452ba24_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 416F9ACB1AB3AE9A0050051B /* 2702504642_d9a452ba24_o.jpg */; };
+		41A40CC21AB3CC6400E09059 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A40CC01AB3CC6400E09059 /* icon.png */; };
+		41A40CC31AB3CC6400E09059 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A40CC11AB3CC6400E09059 /* logo.png */; };
+		41A40CCA1AB3EF9B00E09059 /* homeless-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A40CC41AB3EF9B00E09059 /* homeless-banner.png */; };
+		41A40CCB1AB3EF9B00E09059 /* homeless-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A40CC51AB3EF9B00E09059 /* homeless-icon.png */; };
+		41A40CCC1AB3EF9B00E09059 /* kids-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A40CC61AB3EF9B00E09059 /* kids-banner.png */; };
+		41A40CCD1AB3EF9B00E09059 /* kids-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A40CC71AB3EF9B00E09059 /* kids-icon.png */; };
+		41A40CCE1AB3EF9B00E09059 /* Old-People-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A40CC81AB3EF9B00E09059 /* Old-People-banner.png */; };
+		41A40CCF1AB3EF9B00E09059 /* Old-People.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A40CC91AB3EF9B00E09059 /* Old-People.png */; };
 		41B12E351AB3A5E00020F318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B12E341AB3A5E00020F318 /* main.m */; };
 		41B12E381AB3A5E00020F318 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B12E371AB3A5E00020F318 /* AppDelegate.m */; };
 		41B12E3B1AB3A5E00020F318 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B12E3A1AB3A5E00020F318 /* ViewController.m */; };
@@ -14,6 +24,10 @@
 		41B12E401AB3A5E00020F318 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B12E3F1AB3A5E00020F318 /* Images.xcassets */; };
 		41B12E431AB3A5E00020F318 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41B12E411AB3A5E00020F318 /* LaunchScreen.xib */; };
 		41B12E4F1AB3A5E20020F318 /* donaandoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B12E4E1AB3A5E20020F318 /* donaandoTests.m */; };
+		41D2EA411AB48EBB002D7BE7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D2EA401AB48EBB002D7BE7 /* MapKit.framework */; };
+		41D2EA431AB48EC4002D7BE7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D2EA421AB48EC4002D7BE7 /* CoreLocation.framework */; };
+		41D2EA461AB48F96002D7BE7 /* Marker.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D2EA451AB48F96002D7BE7 /* Marker.m */; };
+		41D2EA4C1AB49CC1002D7BE7 /* mapUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D2EA4B1AB49CC0002D7BE7 /* mapUIViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		416F9AC91AB3AD320050051B /* 2434923518_d480094c53_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2434923518_d480094c53_b.jpg; sourceTree = "<group>"; };
+		416F9ACB1AB3AE9A0050051B /* 2702504642_d9a452ba24_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2702504642_d9a452ba24_o.jpg; sourceTree = "<group>"; };
+		41A40CC01AB3CC6400E09059 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		41A40CC11AB3CC6400E09059 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		41A40CC41AB3EF9B00E09059 /* homeless-banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeless-banner.png"; sourceTree = "<group>"; };
+		41A40CC51AB3EF9B00E09059 /* homeless-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeless-icon.png"; sourceTree = "<group>"; };
+		41A40CC61AB3EF9B00E09059 /* kids-banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kids-banner.png"; sourceTree = "<group>"; };
+		41A40CC71AB3EF9B00E09059 /* kids-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kids-icon.png"; sourceTree = "<group>"; };
+		41A40CC81AB3EF9B00E09059 /* Old-People-banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Old-People-banner.png"; sourceTree = "<group>"; };
+		41A40CC91AB3EF9B00E09059 /* Old-People.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Old-People.png"; sourceTree = "<group>"; };
 		41B12E2F1AB3A5E00020F318 /* donaando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = donaando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B12E331AB3A5E00020F318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41B12E341AB3A5E00020F318 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +64,12 @@
 		41B12E481AB3A5E20020F318 /* donaandoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = donaandoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B12E4D1AB3A5E20020F318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41B12E4E1AB3A5E20020F318 /* donaandoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = donaandoTests.m; sourceTree = "<group>"; };
+		41D2EA401AB48EBB002D7BE7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		41D2EA421AB48EC4002D7BE7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		41D2EA441AB48F96002D7BE7 /* Marker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Marker.h; path = ../Marker.h; sourceTree = "<group>"; };
+		41D2EA451AB48F96002D7BE7 /* Marker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Marker.m; path = ../Marker.m; sourceTree = "<group>"; };
+		41D2EA4A1AB49CC0002D7BE7 /* mapUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapUIViewController.h; sourceTree = "<group>"; };
+		41D2EA4B1AB49CC0002D7BE7 /* mapUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapUIViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D2EA431AB48EC4002D7BE7 /* CoreLocation.framework in Frameworks */,
+				41D2EA411AB48EBB002D7BE7 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +92,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4195E8861AB45C720026E6F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41B12E3C1AB3A5E00020F318 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		41A40CD01AB3EFB000E09059 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				41A40CC41AB3EF9B00E09059 /* homeless-banner.png */,
+				41A40CC51AB3EF9B00E09059 /* homeless-icon.png */,
+				41A40CC61AB3EF9B00E09059 /* kids-banner.png */,
+				41A40CC71AB3EF9B00E09059 /* kids-icon.png */,
+				41A40CC81AB3EF9B00E09059 /* Old-People-banner.png */,
+				41A40CC91AB3EF9B00E09059 /* Old-People.png */,
+				41A40CC01AB3CC6400E09059 /* icon.png */,
+				41A40CC11AB3CC6400E09059 /* logo.png */,
+				416F9ACB1AB3AE9A0050051B /* 2702504642_d9a452ba24_o.jpg */,
+				416F9AC91AB3AD320050051B /* 2434923518_d480094c53_b.jpg */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
 		41B12E261AB3A5E00020F318 = {
 			isa = PBXGroup;
 			children = (
+				41D2EA421AB48EC4002D7BE7 /* CoreLocation.framework */,
+				41D2EA401AB48EBB002D7BE7 /* MapKit.framework */,
+				41A40CD01AB3EFB000E09059 /* assets */,
 				41B12E311AB3A5E00020F318 /* donaando */,
 				41B12E4B1AB3A5E20020F318 /* donaandoTests */,
 				41B12E301AB3A5E00020F318 /* Products */,
@@ -81,11 +141,15 @@
 		41B12E311AB3A5E00020F318 /* donaando */ = {
 			isa = PBXGroup;
 			children = (
+				4195E8861AB45C720026E6F5 /* View */,
 				41B12E361AB3A5E00020F318 /* AppDelegate.h */,
 				41B12E371AB3A5E00020F318 /* AppDelegate.m */,
 				41B12E391AB3A5E00020F318 /* ViewController.h */,
 				41B12E3A1AB3A5E00020F318 /* ViewController.m */,
-				41B12E3C1AB3A5E00020F318 /* Main.storyboard */,
+				41D2EA441AB48F96002D7BE7 /* Marker.h */,
+				41D2EA451AB48F96002D7BE7 /* Marker.m */,
+				41D2EA4A1AB49CC0002D7BE7 /* mapUIViewController.h */,
+				41D2EA4B1AB49CC0002D7BE7 /* mapUIViewController.m */,
 				41B12E3F1AB3A5E00020F318 /* Images.xcassets */,
 				41B12E411AB3A5E00020F318 /* LaunchScreen.xib */,
 				41B12E321AB3A5E00020F318 /* Supporting Files */,
@@ -200,8 +264,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B12E3E1AB3A5E00020F318 /* Main.storyboard in Resources */,
+				41A40CCD1AB3EF9B00E09059 /* kids-icon.png in Resources */,
+				41A40CCA1AB3EF9B00E09059 /* homeless-banner.png in Resources */,
 				41B12E431AB3A5E00020F318 /* LaunchScreen.xib in Resources */,
+				41A40CCE1AB3EF9B00E09059 /* Old-People-banner.png in Resources */,
+				41A40CC21AB3CC6400E09059 /* icon.png in Resources */,
+				41A40CCC1AB3EF9B00E09059 /* kids-banner.png in Resources */,
+				416F9ACC1AB3AE9A0050051B /* 2702504642_d9a452ba24_o.jpg in Resources */,
+				41A40CC31AB3CC6400E09059 /* logo.png in Resources */,
 				41B12E401AB3A5E00020F318 /* Images.xcassets in Resources */,
+				41A40CCB1AB3EF9B00E09059 /* homeless-icon.png in Resources */,
+				41A40CCF1AB3EF9B00E09059 /* Old-People.png in Resources */,
+				416F9ACA1AB3AD320050051B /* 2434923518_d480094c53_b.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D2EA4C1AB49CC1002D7BE7 /* mapUIViewController.m in Sources */,
 				41B12E3B1AB3A5E00020F318 /* ViewController.m in Sources */,
 				41B12E381AB3A5E00020F318 /* AppDelegate.m in Sources */,
 				41B12E351AB3A5E00020F318 /* main.m in Sources */,
+				41D2EA461AB48F96002D7BE7 /* Marker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +488,7 @@
 				41B12E541AB3A5E20020F318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41B12E551AB3A5E20020F318 /* Build configuration list for PBXNativeTarget "donaandoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +497,7 @@
 				41B12E571AB3A5E20020F318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
