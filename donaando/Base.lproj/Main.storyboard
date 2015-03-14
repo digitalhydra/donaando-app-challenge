@@ -415,136 +415,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeless-banner.png" translatesAutoresizingMaskIntoConstraints="NO" id="0YA-rJ-OSD">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="178"/>
-                                </variation>
-                            </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJO-7R-Cfj">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Necesidades Principales" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOe-9u-2Fn">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <color key="backgroundColor" red="0.91824598783891542" green="0.93799321338383834" blue="0.93799321338383834" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <size key="shadowOffset" width="2" height="-1"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="13" y="15" width="188" height="23"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informacion" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5c5-zS-yCA">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <color key="backgroundColor" red="0.9182459878" green="0.93799321339999997" blue="0.93799321339999997" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <size key="shadowOffset" width="2" height="-1"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="13" y="111" width="384" height="23"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La fundacion x esta orientada a la ayuda de a" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6k-Zv-hgW">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="24" y="406" width="352" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Direccion:" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhz-fE-Rsq">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                        <color key="textColor" red="0.93420533459595956" green="0.40687949583375699" blue="0.41498651480148535" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="24" y="435" width="101" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cra 1234 # 23-234 Bucaramanga" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9f-J3-Guw">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                        <color key="textColor" red="0.45232202701243868" green="0.44557037484900908" blue="0.50037484217171713" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="114" y="436" width="256" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informacion" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqc-QO-bo4">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <color key="backgroundColor" red="0.908859773724083" green="0.92840514520202022" blue="0.92840514520202022" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <size key="shadowOffset" width="2" height="-1"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="24" y="356" width="384" height="30"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ropa, Alimentos, Medicinas" lineBreakMode="wordWrap" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUe-gx-h1u">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="13" y="46" width="379" height="42"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Orgnizacion que ayuda a los ancianos" lineBreakMode="wordWrap" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAq-q4-vkV">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="13" y="114" width="379" height="82"/>
-                                        </variation>
-                                    </label>
-                                </subviews>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="KOe-9u-2Fn"/>
-                                        <exclude reference="5c5-zS-yCA"/>
-                                        <exclude reference="I6k-Zv-hgW"/>
-                                        <exclude reference="lhz-fE-Rsq"/>
-                                        <exclude reference="d9f-J3-Guw"/>
-                                        <exclude reference="yqc-QO-bo4"/>
-                                        <exclude reference="hUe-gx-h1u"/>
-                                        <exclude reference="dAq-q4-vkV"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="241" width="400" height="310"/>
-                                    <mask key="subviews">
-                                        <include reference="KOe-9u-2Fn"/>
-                                        <include reference="5c5-zS-yCA"/>
-                                        <include reference="I6k-Zv-hgW"/>
-                                        <include reference="lhz-fE-Rsq"/>
-                                        <include reference="d9f-J3-Guw"/>
-                                        <include reference="yqc-QO-bo4"/>
-                                        <include reference="hUe-gx-h1u"/>
-                                        <include reference="dAq-q4-vkV"/>
-                                    </mask>
-                                </variation>
-                            </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcM-2q-yMA">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="338" y="562" width="46" height="30"/>
-                                </variation>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o89-Gg-Gh1">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Llamar">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="562" width="47" height="30"/>
+                                    <rect key="frame" x="19" y="507" width="80" height="30"/>
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWE-qb-Chz">
@@ -553,60 +430,208 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="159" y="559" width="46" height="30"/>
+                                    <rect key="frame" x="149" y="507" width="102" height="30"/>
                                 </variation>
                             </button>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fdu-SM-nL7">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <items>
-                                    <navigationItem title="Fundacion La Esperanza" id="gRJ-zX-8hn">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="JLL-5d-2f7">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0tG-He-qmW">
-                                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Volver">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                            </button>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Necesidades Principales" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOe-9u-2Fn">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="0.91824598783891542" green="0.93799321338383834" blue="0.93799321338383834" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="1" y="0.39999999999999997" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="KEB-74-WRf"/>
+                                    <constraint firstAttribute="width" constant="400" id="p4E-nw-njt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="8"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="KEB-74-WRf"/>
+                                        <exclude reference="p4E-nw-njt"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="KEB-74-WRf"/>
+                                        <include reference="p4E-nw-njt"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informacion" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5c5-zS-yCA">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="0.9182459878" green="0.93799321339999997" blue="0.93799321339999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="gnY-1W-QyW"/>
+                                    <constraint firstAttribute="width" constant="400" id="sKW-KD-Lsq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gnY-1W-QyW"/>
+                                        <exclude reference="sKW-KD-Lsq"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="gnY-1W-QyW"/>
+                                        <include reference="sKW-KD-Lsq"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcM-2q-yMA">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Ver en Mapa">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="292" y="507" width="102" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="hAP-0c-knF" kind="show" id="FY9-Fi-Xdw"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kids-banner.png" translatesAutoresizingMaskIntoConstraints="NO" id="G6P-5g-Ahb">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="c0b-II-XoB"/>
+                                    <constraint firstAttribute="height" constant="236" id="mn3-iz-ZKf"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="c0b-II-XoB"/>
+                                        <exclude reference="mn3-iz-ZKf"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="c0b-II-XoB"/>
+                                        <include reference="mn3-iz-ZKf"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ropa, Alimentos, Medicinas" lineBreakMode="wordWrap" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUe-gx-h1u">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="1Lr-xW-fFf"/>
+                                    <constraint firstAttribute="width" constant="379" id="6Hy-mE-6A9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1Lr-xW-fFf"/>
+                                        <exclude reference="6Hy-mE-6A9"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1Lr-xW-fFf"/>
+                                        <include reference="6Hy-mE-6A9"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Orgnizacion que ayuda a los ancianos" lineBreakMode="wordWrap" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAq-q4-vkV">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="M6a-kj-Te1"/>
+                                    <constraint firstAttribute="width" constant="379" id="vLO-97-wB7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="M6a-kj-Te1"/>
+                                        <exclude reference="vLO-97-wB7"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="M6a-kj-Te1"/>
+                                        <include reference="vLO-97-wB7"/>
+                                    </mask>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="fdu-SM-nL7" firstAttribute="leading" secondItem="wrK-t9-wd7" secondAttribute="leadingMargin" constant="-16" id="CQa-2A-Y83"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fdu-SM-nL7" secondAttribute="trailing" constant="-16" id="DVr-BI-Iov"/>
-                            <constraint firstItem="23W-Um-pjs" firstAttribute="top" secondItem="fdu-SM-nL7" secondAttribute="bottom" id="Tjf-vj-seL"/>
+                            <constraint firstAttribute="centerX" secondItem="G6P-5g-Ahb" secondAttribute="centerX" id="0Td-Jn-BKV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KOe-9u-2Fn" secondAttribute="trailing" constant="-16" id="6QB-eU-Ne5"/>
+                            <constraint firstItem="hUe-gx-h1u" firstAttribute="top" secondItem="23W-Um-pjs" secondAttribute="bottom" constant="296" id="AXG-yy-d2N"/>
+                            <constraint firstAttribute="centerX" secondItem="KOe-9u-2Fn" secondAttribute="centerX" id="Ar1-C1-kEY"/>
+                            <constraint firstItem="G6P-5g-Ahb" firstAttribute="top" secondItem="23W-Um-pjs" secondAttribute="bottom" id="E24-Yf-KMh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hUe-gx-h1u" secondAttribute="trailing" constant="-11" id="EFO-FL-3G5"/>
+                            <constraint firstItem="KOe-9u-2Fn" firstAttribute="leading" secondItem="wrK-t9-wd7" secondAttribute="leadingMargin" constant="-16" id="Fyg-c3-sqU"/>
+                            <constraint firstItem="hUe-gx-h1u" firstAttribute="leading" secondItem="wrK-t9-wd7" secondAttribute="leadingMargin" id="IK1-Db-Kth"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5c5-zS-yCA" secondAttribute="trailing" constant="-16" id="SEt-LI-QRt"/>
+                            <constraint firstItem="5c5-zS-yCA" firstAttribute="leading" secondItem="wrK-t9-wd7" secondAttribute="leadingMargin" constant="-16" id="aQG-uY-ITG"/>
+                            <constraint firstItem="dAq-q4-vkV" firstAttribute="top" secondItem="23W-Um-pjs" secondAttribute="bottom" constant="364" id="ce7-Tp-xiT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dAq-q4-vkV" secondAttribute="trailing" constant="-11" id="cwq-Yd-bcx"/>
+                            <constraint firstItem="KOe-9u-2Fn" firstAttribute="top" secondItem="23W-Um-pjs" secondAttribute="bottom" constant="268" id="cy8-un-pna"/>
+                            <constraint firstItem="5c5-zS-yCA" firstAttribute="top" secondItem="23W-Um-pjs" secondAttribute="bottom" constant="346" id="dPB-LE-ndl"/>
+                            <constraint firstItem="dAq-q4-vkV" firstAttribute="leading" secondItem="wrK-t9-wd7" secondAttribute="leadingMargin" id="yGH-5b-sSm"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="0YA-rJ-OSD"/>
-                                <exclude reference="VJO-7R-Cfj"/>
-                                <exclude reference="ZcM-2q-yMA"/>
                                 <exclude reference="o89-Gg-Gh1"/>
                                 <exclude reference="vWE-qb-Chz"/>
-                                <exclude reference="fdu-SM-nL7"/>
+                                <exclude reference="KOe-9u-2Fn"/>
+                                <exclude reference="5c5-zS-yCA"/>
+                                <exclude reference="ZcM-2q-yMA"/>
+                                <exclude reference="G6P-5g-Ahb"/>
+                                <exclude reference="hUe-gx-h1u"/>
+                                <exclude reference="dAq-q4-vkV"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="CQa-2A-Y83"/>
-                                <exclude reference="DVr-BI-Iov"/>
-                                <exclude reference="Tjf-vj-seL"/>
+                                <exclude reference="0Td-Jn-BKV"/>
+                                <exclude reference="E24-Yf-KMh"/>
+                                <exclude reference="6QB-eU-Ne5"/>
+                                <exclude reference="Ar1-C1-kEY"/>
+                                <exclude reference="Fyg-c3-sqU"/>
+                                <exclude reference="cy8-un-pna"/>
+                                <exclude reference="AXG-yy-d2N"/>
+                                <exclude reference="EFO-FL-3G5"/>
+                                <exclude reference="IK1-Db-Kth"/>
+                                <exclude reference="SEt-LI-QRt"/>
+                                <exclude reference="aQG-uY-ITG"/>
+                                <exclude reference="dPB-LE-ndl"/>
+                                <exclude reference="ce7-Tp-xiT"/>
+                                <exclude reference="cwq-Yd-bcx"/>
+                                <exclude reference="yGH-5b-sSm"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="0YA-rJ-OSD"/>
-                                <include reference="VJO-7R-Cfj"/>
-                                <include reference="ZcM-2q-yMA"/>
                                 <include reference="o89-Gg-Gh1"/>
                                 <include reference="vWE-qb-Chz"/>
-                                <include reference="fdu-SM-nL7"/>
+                                <include reference="KOe-9u-2Fn"/>
+                                <include reference="5c5-zS-yCA"/>
+                                <include reference="ZcM-2q-yMA"/>
+                                <include reference="G6P-5g-Ahb"/>
+                                <include reference="hUe-gx-h1u"/>
+                                <include reference="dAq-q4-vkV"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="CQa-2A-Y83"/>
-                                <include reference="DVr-BI-Iov"/>
-                                <include reference="Tjf-vj-seL"/>
+                                <include reference="0Td-Jn-BKV"/>
+                                <include reference="E24-Yf-KMh"/>
+                                <include reference="6QB-eU-Ne5"/>
+                                <include reference="Ar1-C1-kEY"/>
+                                <include reference="Fyg-c3-sqU"/>
+                                <include reference="cy8-un-pna"/>
+                                <include reference="AXG-yy-d2N"/>
+                                <include reference="EFO-FL-3G5"/>
+                                <include reference="IK1-Db-Kth"/>
+                                <include reference="SEt-LI-QRt"/>
+                                <include reference="aQG-uY-ITG"/>
+                                <include reference="dPB-LE-ndl"/>
+                                <include reference="ce7-Tp-xiT"/>
+                                <include reference="cwq-Yd-bcx"/>
+                                <include reference="yGH-5b-sSm"/>
                             </mask>
                         </variation>
                     </view>
@@ -632,7 +657,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zH3-tM-a2q" id="051-aj-pCB">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Old-People.png" translatesAutoresizingMaskIntoConstraints="NO" id="KxA-1M-k36">
+                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Old-People.png" translatesAutoresizingMaskIntoConstraints="NO" id="KxA-1M-k36">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="98" id="83H-8D-4ad"/>
@@ -727,7 +752,7 @@
                                                     <color key="textColor" red="0.70130997470000001" green="0.70130997470000001" blue="0.70130997470000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeless-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="hML-ZO-d0q">
+                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeless-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="hML-ZO-d0q">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="98" id="2Of-x7-MEF"/>
@@ -795,7 +820,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dsd-3I-p7K" id="6Ec-Xf-Avp">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kids-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Dx-NE-fY0">
+                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kids-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Dx-NE-fY0">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="83" id="Kgr-de-MRs"/>
@@ -875,7 +900,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mLj-SU-233" id="qhi-9a-olb">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Old-People.png" translatesAutoresizingMaskIntoConstraints="NO" id="rTB-tV-YjE">
+                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Old-People.png" translatesAutoresizingMaskIntoConstraints="NO" id="rTB-tV-YjE">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="98" id="GaW-Yx-Uzo"/>
@@ -955,7 +980,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fVK-bS-yoe" id="DCN-Op-dRh">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeless-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hwg-s2-Y7O">
+                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeless-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hwg-s2-Y7O">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="83" id="UAu-Hn-YgY"/>
@@ -1035,7 +1060,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FPs-cX-YIH" id="0SI-8S-ROg">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeless-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="gbT-3v-EC7">
+                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeless-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="gbT-3v-EC7">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="98" id="cVb-2C-v5n"/>
@@ -1115,7 +1140,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YIn-n6-qiA" id="eJ0-Zd-yAV">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Old-People.png" translatesAutoresizingMaskIntoConstraints="NO" id="ooL-zG-TNZ">
+                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Old-People.png" translatesAutoresizingMaskIntoConstraints="NO" id="ooL-zG-TNZ">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="83" id="pX8-Gb-0lU"/>
@@ -1689,8 +1714,8 @@
     <resources>
         <image name="2702504642_d9a452ba24_o.jpg" width="500" height="500"/>
         <image name="Old-People.png" width="120" height="90"/>
-        <image name="homeless-banner.png" width="400" height="273"/>
         <image name="homeless-icon.png" width="120" height="82"/>
+        <image name="kids-banner.png" width="400" height="266"/>
         <image name="kids-icon.png" width="120" height="80"/>
         <image name="logo.png" width="232" height="65"/>
     </resources>
