@@ -29,6 +29,7 @@
 		41D2EA461AB48F96002D7BE7 /* Marker.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D2EA451AB48F96002D7BE7 /* Marker.m */; };
 		41D2EA4C1AB49CC1002D7BE7 /* mapUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D2EA4B1AB49CC0002D7BE7 /* mapUIViewController.m */; };
 		41D2EA4E1AB4A4E7002D7BE7 /* mapMarker.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D2EA4D1AB4A4E7002D7BE7 /* mapMarker.png */; };
+		41FD01831AB4AF7100ACF9C8 /* categoriasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FD01821AB4AF7100ACF9C8 /* categoriasTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		41D2EA4A1AB49CC0002D7BE7 /* mapUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapUIViewController.h; sourceTree = "<group>"; };
 		41D2EA4B1AB49CC0002D7BE7 /* mapUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapUIViewController.m; sourceTree = "<group>"; };
 		41D2EA4D1AB4A4E7002D7BE7 /* mapMarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapMarker.png; sourceTree = "<group>"; };
+		41FD01811AB4AF7100ACF9C8 /* categoriasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = categoriasTableViewController.h; sourceTree = "<group>"; };
+		41FD01821AB4AF7100ACF9C8 /* categoriasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = categoriasTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				41B12E3C1AB3A5E00020F318 /* Main.storyboard */,
+				41FD01811AB4AF7100ACF9C8 /* categoriasTableViewController.h */,
+				41FD01821AB4AF7100ACF9C8 /* categoriasTableViewController.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D2EA4C1AB49CC1002D7BE7 /* mapUIViewController.m in Sources */,
+				41FD01831AB4AF7100ACF9C8 /* categoriasTableViewController.m in Sources */,
 				41B12E3B1AB3A5E00020F318 /* ViewController.m in Sources */,
 				41B12E381AB3A5E00020F318 /* AppDelegate.m in Sources */,
 				41B12E351AB3A5E00020F318 /* main.m in Sources */,
